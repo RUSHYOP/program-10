@@ -36,9 +36,9 @@
       <version>3.4.2</version>
       <configuration>
         <archive>
-          <manifestation>
+          <manifest>
             <Main-Class>org.example.App</Main-Class>
-          </manifestation>
+          </manifest>
         </archive>
       </configuration>
     </plugin>

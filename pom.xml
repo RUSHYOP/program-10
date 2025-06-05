@@ -34,6 +34,13 @@
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
       <version>3.4.2</version>
+      <configuration>
+        <archive>
+          <manifestation>
+            <Main-Class>org.example.App</Main-Class>
+          </manifestation>
+        </archive>
+      </configuration>
     </plugin>
     <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
     <plugin>
